@@ -5,27 +5,51 @@
     --grey: #8A8A8A;
     --white: #FAF8F5;
     --ivory: #FFFFF0;
+    --green: #556B2F;
 }
 
 /* Global styles 
 ------------------------------------*/
 body {
-    font-family: Verdana, Geneva, sans-serif;
-    background-color: white;
+    font-family: 'Open Sans' Verdana, Geneva, sans-serif;
+    background-color: var(--tan);
     line-height: 1.8;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+h1, h2, h3 {
+    font-family: 'Poppins', Verdana, Geneva, sans-serif;
+}
+
 h1 {
     display: inline-block;
-    background-color: #CD5C5C;
+    background-color: var(--red);
+    padding: .2em .5em;
+}
+
+h2 {
+    display: inline-block;
+    background-color: var(--green);
+    padding: .2em .5em;
+}
+
+h3 {
+    display: inline-block;
+    background-color: var(--green);
     padding: .2em .5em;
 }
 
 /* Work Experience
 ------------------------------------*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2em 3em;
+    background-color: var(--white);
+}
+
 img {
     max-width: 100%;
     height: auto;
