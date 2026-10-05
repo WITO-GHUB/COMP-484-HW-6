@@ -1,0 +1,44 @@
+:root {
+    --black: #1c1c1c;
+    --brown: #5c4033;
+    --tan: #c8ad8d;
+    --grey: #8a8a8a;
+    --white: #faf8f5;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background: white;
+    line-height: 1.8;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+
+
+/* Work Experience
+------------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.intro img {
+    flex: 1;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Education
+------------------------------------*/
