@@ -1,1 +1,1 @@
-https://github.com/WITO-GHUB/COMP-484-HW-6.git
+https://wito-ghub.github.io/COMP-484-HW-6/
